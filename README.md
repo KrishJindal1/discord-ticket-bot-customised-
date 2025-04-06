@@ -26,7 +26,7 @@ A customized  ticket system for Discord made for fgcards.
    cd discord-ticket-bot-customised-
 
    nstall dependencies:
-##Installation dependencies ->
+#Installation dependencies ->
  npm install
 
 ##Configure Your Bot ->
