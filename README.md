@@ -26,10 +26,10 @@ A customized  ticket system for Discord made for fgcards.
    cd discord-ticket-bot-customised-
 
    nstall dependencies:
-##Installation dependencies
+##Installation dependencies ->
  npm install
 
-##Configure Your Bot
+##Configure Your Bot ->
 cp sample.env .env
 
 # .env Example
@@ -50,24 +50,24 @@ Command	Description
 Panel Buttons	Create specific ticket types
 
 📝 Ticket Flow
-User clicks button in panel
+  1)User clicks button in panel
 
-Selects ticket reason
+  2)Selects ticket reason
+  
+  3)Provides details (via modals)
 
-Provides details (via modals)
+  4)Staff receives notification
 
-Staff receives notification
-
-Ticket resolved via buttons
+  5)Ticket resolved via buttons
 
 🔧 Customization
 Edit these files to customize:
 
-index.js → Main bot logic
+   1)index.js → Main bot logic
 
-src/embeds.js → Ticket messages/design
+   2)src/embeds.js → Ticket messages/design
 
-.env → Server configurations
+   3).env → Server configurations
 
 🤖 Bot Permissions
 Required permissions:
